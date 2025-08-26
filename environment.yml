@@ -1,4 +1,4 @@
-name: astrometria
+name: astrometria25
 channels:
   - defaults
 dependencies:
