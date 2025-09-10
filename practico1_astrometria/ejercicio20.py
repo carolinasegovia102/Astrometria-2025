@@ -1,5 +1,6 @@
 # %%
-import numpy as np 
+import numpy as np
+import pandas as pd 
 import matplotlib.pyplot as plt
 from funciones import generador_fibonacci
 from funciones import coeficiente_correlacion_pearson
@@ -27,6 +28,4 @@ print(df_corr)
 
 
 
-x = generador_fibonacci(1000,10)
-y = generador_fibonacci(1000,10)
 # %%
