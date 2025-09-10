@@ -1,3 +1,4 @@
+#%%
 import numpy as np
 ## Inciso a
 'Notemos que el espacio esta formado por todos los pares {(d_1,d_2)}'
@@ -39,7 +40,7 @@ plt.hist(muestras, bins=np.arange(1.5,13.5,1), density=True, alpha=0.6, label='E
 plt.stem(valores, probs, linefmt='C1-', markerfmt='C1o', basefmt=" ", label='Teórica')
 plt.xlabel('Suma de los dados')
 plt.ylabel('Probabilidad')
-plt.title('Distribución de la suma de dos dados (teórica vs simulada)')
+plt.title('Distribución de la suma de dos dados: empírica (simulada) vs teórica')
 plt.legend()
 plt.grid(True, axis='y', linestyle=':')
 plt.show()
@@ -57,7 +58,9 @@ plt.hist(suma_dados, bins=np.arange(1.5,13.5,1), density=True, alpha=0.6, label=
 plt.stem(valores, probs, linefmt='C1-', markerfmt='C1o', basefmt=" ", label='Teórica')
 plt.xlabel('Suma de los dados')
 plt.ylabel('Probabilidad')
-plt.title('Distribución de la suma de dos dados (simulación vs teórica)')
+plt.title('Distribución de la suma de dos dados: simulación directa vs teórica.')
 plt.legend()
 plt.grid(True, axis='y', linestyle=':')
 plt.show()
+
+# %%
